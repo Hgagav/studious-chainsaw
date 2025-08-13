@@ -34,7 +34,7 @@ jobs:
       max-parallel: 250
       fail-fast: false
       matrix:
-    go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
+        go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
         flag: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 1, 2] 
     timeout-minutes: 360
     env:
@@ -60,7 +60,7 @@ jobs:
       max-parallel: 250
       fail-fast: false
       matrix:
-    go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
+        go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
         flag: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 1, 2] 
     timeout-minutes: 360
     env:
@@ -83,7 +83,7 @@ jobs:
       max-parallel: 250
       fail-fast: false
       matrix:
-    go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
+        go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
         flag: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 1, 2] 
     timeout-minutes: 360
     env:
@@ -109,7 +109,7 @@ jobs:
       max-parallel: 250
       fail-fast: false
       matrix:
-    go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
+        go: [18.20, 20.19, 22.15, 22.16, 18, 20, 22, 22.13, 22.14] 
         flag: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 1, 2] 
     timeout-minutes: 360
     env:
